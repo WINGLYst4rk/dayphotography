@@ -1,1 +1,2 @@
-#After some code i will add a good **readme** 
+#dayphotography 
+##A simple repository for a portfolio site
