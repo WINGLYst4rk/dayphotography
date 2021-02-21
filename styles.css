@@ -1,4 +1,39 @@
 *{
-    padding: 2rem;
+    padding: 0;
     margin: 0;
+}
+
+root{
+    width: 100vw;
+    height: 100vh;
+}
+
+#header-content div.grid-container{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-gap: 10px;
+}
+
+.sub-title div.title-photo {
+    font: "Poppins", 300, 14pt;
+    color: #d65a31;
+    background-color: #222831;
+    justify-content: center;
+    border-radius: 10px;
+    position: absolute;
+    width: 277px;
+    height: 69px;
+    left: 233px;
+    top: 427px;
+}
+
+#header-content div.sub-title , div.profile-pic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.profile-pic img.profile {
+    width: 200px;
+    height: 320;
 }
