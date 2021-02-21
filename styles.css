@@ -1,0 +1,13 @@
+*{
+    padding: 2rem;
+    margin: 0;
+}
+
+.menu i {
+    color: #9205a5;
+}
+
+.menu h1 {
+    font-size: 20pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
