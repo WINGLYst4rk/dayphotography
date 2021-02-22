@@ -8,12 +8,33 @@ root{
     height: 100vh;
 }
 
+#header-content .menu div.line1{
+    /* Line 1 */
+    position: absolute;
+    width: 355px;
+    height: 0;
+    left: calc(50% - 355px/2 - 439.5px);
+    top: calc(50% + 137px);
+    border: 2px solid #393e46;
+    transform: rotate(90deg);
+}
+
+#header-content .menu div.line2{
+    position: absolute;
+    width: 355px;
+    height: 0px;
+    left: calc(50% - 350px/2 - 442px);
+    top: calc(50% - 487px);
+    border: 2px solid #393e46;
+    transform: rotate(90deg);
+}
+
 #header-content div.profile-pic img.profile{
     position: absolute;
     width: 392px;
     height: 564px;
     left: calc(50% - 392px/2 + 344px);
-    top: calc(50% - 564px/2 +16px);
+    top: calc(50% - 564px/2 + 16px);
 }
 
 .sub-title div.title-photo {
