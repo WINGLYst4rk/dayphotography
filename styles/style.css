@@ -14,7 +14,36 @@
 }
 
 section {
-    width: 100%;
     height: 100vh;
-    padding: 4rem;
+    width: 100%;
+}
+
+section#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section div.image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .75);
+    padding: 1px;
+    /* transform-origin: center; */
+}
+
+section div.profile-image .image{
+    padding: 2px;
+    background: var(--primary-color);
+    /* transform-origin: center; */
+}
+
+section div.profile-image .image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 4px;
+    /* transform-origin: center; */
 }
