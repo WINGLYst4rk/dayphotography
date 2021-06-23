@@ -1,5 +1,5 @@
 :root {
-    --background-page-color: #f1f1f1;
+    --background-page-color: #EFEFEF;
     --background-text-color: #2A2A2A;
     --text-color: #FBF9FA;
     --primary-color: #FF1E56;
@@ -13,30 +13,36 @@
     margin: 0;
 }
 
+body {
+    background-color: var(--background-page-color);
+}
+
 section {
     height: 100vh;
     width: 100%;
 }
 
-section#header {
+div.profile {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 section div.image {
-    height: 200px;
-    width: 200px;
+    height: 205px;
+    width: 205px;
     border-radius: 50%;
     background: rgba(255, 255, 255, .75);
     padding: 1px;
-    /* transform-origin: center; */
+    transform-origin: center;
+    justify-content: center;
+    align-items: center;
 }
 
 section div.profile-image .image{
     padding: 2px;
-    background: var(--primary-color);
-    /* transform-origin: center; */
+    background: var(--primary-color); /* alterar para a cor insta stories */
+    transform-origin: center;
 }
 
 section div.profile-image .image img {
@@ -45,5 +51,12 @@ section div.profile-image .image img {
     border-radius: 50%;
     object-fit: cover;
     padding: 4px;
-    /* transform-origin: center; */
+    transform-origin: center;
+}
+
+
+section#main {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 2fr;
 }
