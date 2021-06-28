@@ -28,6 +28,8 @@ div.profile {
     align-items: center;
 }
 
+/* section header */
+
 section div.image {
     height: 205px;
     width: 205px;
@@ -54,9 +56,37 @@ section div.profile-image .image img {
     transform-origin: center;
 }
 
+/* section main */
 
 section#main {
+    height: calc(100vh - 80px);
     display: grid;
-    grid-template-columns: 4fr;
-    grid-template-rows: 2fr;
+    grid-template-columns: 300px 600px;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
 }
+
+div.img1 {
+    justify-self: center;
+    width: 200px;
+    height: 400px;
+}
+
+div.img1 img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+div.img2 {
+    height: 200px;
+    width: 400px;
+}
+
+div.img2 img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
