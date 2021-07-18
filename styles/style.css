@@ -59,7 +59,7 @@ section div.profile-image .image img {
 /* section main */
 
 section#main {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 20px);
     display: grid;
     grid-template-columns: 300px 600px;
     grid-template-rows: 1fr 1fr;
@@ -90,3 +90,15 @@ div.img2 img {
     object-fit: cover;
 }
 
+/* section footer */
+#footer {
+    height: calc(40% - 20px);
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 1fr;
+}
+
+#footer .mini-img img {
+    width: 200px;
+    height: 100px;
+}
